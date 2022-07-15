@@ -31,6 +31,6 @@ driver.get("C:\\Users\\shivchou\\Desktop\\hello.html");
 	public void testOne() {
 		WebElement element = driver.findElement(By.xpath("//*[@id=\"xyz\"]"));
 		String str = element.getText();
-		assertEquals("DIV", str);
+		assertEquals("ALPHA", str);
 	}
 }
